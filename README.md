@@ -1,7 +1,7 @@
 #IOTX - Smart Lock
 
 
-A Smart Lock System based on Texas Instruments' CC3200 Launchpad which uses randomly generated password to give temporary access. A Django based server is used to add users. Phone number and Email of user is registered and used to generate OTP which is emailed sent to phone and to the CC3200 too, but first the user is need to be registered and he will get a unique ID which he would need to use every time to get an OTP. RED and GREEN LEDs are used to indicate locking and opening of locks. No external keypad or display is required only the Launchpad. We will use Energia IDE Serial Monitor to interact with our Board, i.e. Enter User ID and password.
+A Smart Lock System based on Texas Instruments' CC3200 Launchpad which uses randomly generated password to give temporary access. A Django server is used to add users. Phone number and Email of user is registered and used to generate OTP which is emailed and sent to phone(SMS) and to the CC3200 too, but first the user is need to be registered and he will get a unique ID which he would need to use every time to get an OTP. RED and GREEN LEDs are used to indicate locking and opening of locks. No external keypad or display is required only the Launchpad. We will use Energia IDE Serial Monitor to interact with our Board, i.e. Enter User ID and password.
 
 
 
