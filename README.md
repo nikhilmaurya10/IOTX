@@ -19,7 +19,9 @@ A Smart Lock System based on Texas Instruments' CC3200 Launchpad which uses rand
 		$ pip install -r requirements.txt	
 
 	After everything is done edit the settings.py file to change username and password for email.
-	Also edit views.py (you can find both files in iotx/iotx/iotx) file and change the username and password in the URL for sending sms. You will have to make an account at smsindiahub.in you will get 10 free SMS. Replace the username and password in views.py file.
+	Also edit views.py (you can find both files in iotx/iotx/iotx) file and change the username and password
+	in the URL for sending sms. You will have to make an account at smsindiahub.in you will get 10 free SMS. 
+	Replace the username and password in views.py file.
 
 	After all is done Create a superuser this will allow you to add Users at Django admin portal @ http://127.0.0.1/admin
 		$ python manage.py createsuperuser
@@ -43,7 +45,8 @@ A Smart Lock System based on Texas Instruments' CC3200 Launchpad which uses rand
 	
 	Save the file Compile, Upload, Run and open up serial monitor it will show network its connected.
 	Press the push button enter the ID and hit ENTER on serial monitor. it will send the ID the the Django server(make sure its running).
-	the password will be genrated and sent. Enter the password and if this matches GREEN LED should light up. After few seconds RED LED will be turned on and green off showning and system is locked again.
+	the password will be genrated and sent. Enter the password and if this matches GREEN LED should light up. After few
+	seconds RED LED will be turned on and green off showning and system is locked again.
 	
 
 ## License
